@@ -10,10 +10,10 @@
 #'
 #' @export
 #'
-source_verbose <- function(...) {
-  wslist_before <- ls(.GlobalEnv)
+source_verbose <- function(..., envir=.GlobalEnv) {
+  wslist_before <- ls(envir=envir)
   source(...)
-  wslist_after <- ls(.GlobalEnv)
+  wslist_after <- ls(envir=envir)
 
   if(any(!(wslist_after %in% wslist_before))) {
     cat("+ Added to workspace:\n", paste0("   ", wslist_after[(!(wslist_after %in% wslist_before))], "\n"))
