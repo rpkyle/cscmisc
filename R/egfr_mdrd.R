@@ -20,7 +20,6 @@
 #' @author Ben Rich, \email{benjamin.rich@certara.com}
 #' 
 #' @references \url{http://en.wikipedia.org/wiki/Creatinine_clearance}
-#' @seealso \link{crcl.cg}
 #' 
 #' @examples
 #' # With serum creatinine in mg/dL
