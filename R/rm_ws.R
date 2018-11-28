@@ -5,12 +5,12 @@
 #' If exclusions are specified, but none are matched, the function will abort for safety reasons. This is intended to prevent
 #' the user from inadvertently clearing the workspace using stale or poorly formatted arguments.
 #'
-#' @usage rm.ws(..., exclude, verbose=FALSE, reqmatch=TRUE)
+#' @usage rm_ws(..., exclude, verbose=FALSE, reqmatch=TRUE)
 #'
 #' @param ... Arguments to be passed directly to \code{rm}.
 #' @param exclude Boolean; should any objects be retained when the workspace is cleared?
 #' @param verbose Boolean; should output be written to console listing the deleted/retained objects?
-#' @param reqmatch Boolean; should \code{rm.ws} require that at least one exclusion matches?
+#' @param reqmatch Boolean; should \code{rm_ws} require that at least one exclusion matches?
 #'
 #' @return None
 #'
