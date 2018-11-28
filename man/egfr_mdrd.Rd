@@ -44,9 +44,6 @@ egfr_mdrd(scr.umol.L=0.9*88.4, age.yr=53, is.female=FALSE, is.black=FALSE)
 \references{
 \url{http://en.wikipedia.org/wiki/Creatinine_clearance}
 }
-\seealso{
-\link{crcl.cg}
-}
 \author{
 Ben Rich, \email{benjamin.rich@certara.com}
 }

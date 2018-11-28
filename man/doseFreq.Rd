@@ -25,6 +25,6 @@ A data frame, in which rows correspond to unique values of \code{idvar} and colu
 This function produces tabular output which may be helpful for comparing dosing frequencies by individual in exploratory analyses.
 }
 \author{
-Ryan Kyle, \email{ryan.kyle@certara.com}
+Ryan Kyle, \email{ryan.kyle@mail.mcgill.ca}
 }
 \keyword{utilities}

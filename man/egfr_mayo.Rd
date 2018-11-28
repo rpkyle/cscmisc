@@ -36,9 +36,6 @@ egfr_mayo(scr.umol.L=0.9*88.4, age.yr=53, is.female=FALSE)
 \references{
 \url{http://en.wikipedia.org/wiki/Creatinine_clearance}
 }
-\seealso{
-\link{crcl.cg}
-}
 \author{
 Ryan Kyle, \email{ryan.kyle@mail.mcgill.ca}
 }

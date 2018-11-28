@@ -4,8 +4,8 @@
 \alias{sample_window}
 \title{Generate Intensive Sampling Times for mrgsolve Conditional on Dose Times}
 \usage{
-sample_window(dosetime, interval, sampfreq, include = FALSE, before = FALSE,
-  negtime = FALSE)
+sample_window(dosetime, interval, sampfreq, include = FALSE,
+  before = FALSE, negtime = FALSE)
 }
 \arguments{
 \item{dosetime}{Numeric. Vector of dose administration times.}

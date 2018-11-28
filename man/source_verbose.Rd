@@ -4,7 +4,7 @@
 \alias{source_verbose}
 \title{Verbosely Read R Code from a File, a Connection, or Expressions}
 \usage{
-source_verbose(...)
+source_verbose(..., envir = .GlobalEnv)
 }
 \arguments{
 \item{...}{Arguments to pass to \code{source}.}

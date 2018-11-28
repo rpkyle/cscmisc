@@ -4,7 +4,8 @@
 \alias{dt2dttm}
 \title{Create Date/Time Object}
 \usage{
-dt2dttm(dateobj, timeobj, format = "\%Y-\%m-\%d \%H:\%M:\%S", tz = "UTC")
+dt2dttm(dateobj, timeobj, format = "\%Y-\%m-\%d \%H:\%M:\%S",
+  tz = "UTC")
 }
 \arguments{
 \item{dateobj}{A date formatted as a character string.}
