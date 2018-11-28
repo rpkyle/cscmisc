@@ -4,7 +4,7 @@
 \alias{rm_ws}
 \title{Completely or Selectively Clear the R Workspace of Objects}
 \usage{
-rm.ws(..., exclude, verbose=FALSE, reqmatch=TRUE)
+rm_ws(..., exclude, verbose=FALSE, reqmatch=TRUE)
 }
 \arguments{
 \item{...}{Arguments to be passed directly to \code{rm}.}
@@ -13,7 +13,7 @@ rm.ws(..., exclude, verbose=FALSE, reqmatch=TRUE)
 
 \item{verbose}{Boolean; should output be written to console listing the deleted/retained objects?}
 
-\item{reqmatch}{Boolean; should \code{rm.ws} require that at least one exclusion matches?}
+\item{reqmatch}{Boolean; should \code{rm_ws} require that at least one exclusion matches?}
 }
 \value{
 None
