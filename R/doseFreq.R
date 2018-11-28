@@ -10,7 +10,7 @@
 #'
 #' @return A data frame, in which rows correspond to unique values of \code{idvar} and columns correspond to \code{qd}, \code{bid}, \code{tid}, and \code{qid} dosing.
 #'
-#' @author Ryan Kyle, \email{ryan.kyle@certara.com}
+#' @author Ryan Kyle, \email{ryan.kyle@mail.mcgill.ca}
 #' @keywords utilities
 #'
 #' @export
