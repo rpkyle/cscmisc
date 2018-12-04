@@ -22,9 +22,8 @@ detach_all <- function(verbose=TRUE, unload=TRUE) {
       cat("Detaching:", paste(pkgList, collapse=", "), "\n")
     }
     invisible(lapply(
-      paste('package:',
-            pkgList,
-            sep=""),
+      paste0('package:',
+            pkgList),
       detach,
       character.only=TRUE,
       unload=unload))    
