@@ -3,7 +3,8 @@ Title: Miscellaneous Data Manipulation and Simulation Tools
 Version: 0.11
 Authors@R: person("Ryan", "Kyle", email = "ryan.kyle@mail.mcgill.ca", role = c("aut", "cre"))
 Description: Assorted functions for data management and manipulation.
-Depends: R (>= 3.4.3), data.table, table1
+Depends: R (>= 3.4.3)
+Suggests: data.table, table1
 License: MIT
 Encoding: UTF-8
 LazyData: true
